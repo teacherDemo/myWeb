@@ -5,6 +5,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-color: #ccc;
+}
 
 /* 選單 */
 nav {
@@ -15,8 +18,7 @@ nav {
     align-items: center;
     padding: 10px;
     position: sticky;
-    top: 0;
-    margin-bottom: 20px;
+    top: 0;    
 }
 
 nav a{
@@ -33,11 +35,14 @@ nav .menu a {
     width: 80%;
     margin-left: auto;
     margin-right: auto;    
+    background-color: #fff;
 }
 section{
     height: 100vh;
     margin-bottom: 20px;   
     padding-top: 150px; 
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .col1,
